@@ -1,24 +1,24 @@
 # Design_Pattern_with_UE4
-使用UE4蓝图实现设计模式原型
+Use UE4 blueprint to implement design pattern prototype
 Unreal Engine 4.25.3
 
 ***
 
 ## Index
 
-* [x] 01 Simple Factory
-* [x] 02 Strategy
-* [x] 03 Decorator
-* [x] 04 Proxy
-* [x] 05 Factory Method
-* [x] 06 Prototype
-* [x] 07 TemplateMethod
-* [x] 08 Facade
-* [x] 09 Builder
+* [x] 01 Simple Factory (Creational pattern)
+* [x] 02 Strategy (Behavioral pattern)
+* [x] 03 Decorator (Structural pattern)
+* [x] 04 Proxy (Structural pattern)
+* [x] 05 Factory Method (Creational pattern)
+* [x] 06 Prototype (Creational pattern)
+* [x] 07 TemplateMethod (Behavioral pattern)
+* [x] 08 Facade (Structural pattern)
+* [x] 09 Builder (Creational pattern)
 * [x] 10_1 Observer(interface)
 * [ ] 10_2 Observer(delegate)
 * [x] 11 AbstractFactory
-* [X] 12 State 
+* [X] 12 State (Behavioral pattern)
 * [x] 13 Adapter
 * [x] 14 Memento
 * [x] 15 Composite
@@ -28,30 +28,30 @@ Unreal Engine 4.25.3
 * [x] 19 Command
 * [x] 20 ChainOfResponsibility
 * [x] 21 Mediator
-* [x] 22 Flyweight 
+* [x] 22 Flyweight (Structural pattern)
 * [x] 23 Interpreter
-* [x] 24 Visitor
+* [x] 24 Visitor (Behavioral pattern)
 
 ***
-## 代理模式-适配器模式-外观模式-中介者模式
+## Proxy Mode-Adapter Mode-Appearance Mode-Mediator Mode
 
-* 代理模式主要考虑访问一个类的同时做一些控制
-* 适配器模式主要考虑改变对象的接口的问题
-* 外观模式主要考虑增强功能而提供高层接口
-* 中介者模式组要处理不同类之间的通信
+* The proxy mode mainly considers access to a class while doing some control
+* Adapter mode mainly considers the problem of changing the interface of the object
+* The appearance mode mainly considers enhanced functions and provides high-level interfaces
+* The intermediary pattern group needs to handle the communication between different classes
   
 
-## 装饰器模式-责任链模式
-* 装饰器模式可以替代继承，解决继承爆炸。通过在接口中首先调用父类方法，再调用自身方法来实现
-* 装饰器模式父类方法是由传入的子类实例来实现的，所以可以实现兄弟方法的组合（装饰）
-* 责任链模式通过选择性的执行父类方法来分担责任（功能）
-* 责任链模式的父类方法是由传入的子类实例来实现的，所以可以实现兄弟间的责任链接
+## Decorator Pattern-Chain of Responsibility Pattern
+* Decorator mode can replace inheritance and solve inheritance explosion. This is achieved by first calling the parent class method in the interface, and then calling its own method
+* The parent class method of the decorator pattern is implemented by the passed-in subclass instance, so the combination of brother methods (decoration) can be realized
+* Responsibility chain mode shares responsibilities (functions) by selectively executing parent methods
+* The parent class method of the responsibility chain mode is implemented by the passed in subclass instance, so the responsibility link between brothers can be realized
 
-## 建造者-工厂
-* 建造者解决复杂类的创建，并关注零件装配的顺序
+## Builder-Factory
+* The builder solves the creation of complex classes and pays attention to the order of parts assembly
 
-## 命令模式-状态模式
-* 都可以用来消除if...else
+## Command Mode-State Mode
+* Can be used to eliminate if...else
 
 
 
