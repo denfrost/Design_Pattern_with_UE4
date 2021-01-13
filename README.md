@@ -32,6 +32,30 @@ Unreal Engine 4.25.3
 * [x] 23 Interpreter
 * [x] 24 Visitor (Behavioral pattern)
 
++ Another candidate Patterns?
+- [ ] Entity-Component-System
+
+- (Sequencing Patterns)
+- [ ] Double Buffer
+- [ ] Game Loop
+- [ ] Update Method
+
+- (Behavioral Patterns)
+- [ ] Bytecode
+- [ ] Subclass Sandbox
+- [ ] Type Object
+
+- (Decoupling Patterns)
+- [ ] Component
+- [ ] Event Queue
+- [ ] Service Locator
+
+- (Optimization Patterns)
+- [ ] Data Locality
+- [ ] Dirty Flag
+- [ ] Object Pool
+- [ ] Spatial Partition
+
 ***
 ## Proxy Mode-Adapter Mode-Appearance Mode-Mediator Mode
 
