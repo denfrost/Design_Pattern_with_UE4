@@ -56,6 +56,8 @@ Unreal Engine 4.25.3
 - [ ] Object Pool
 - [ ] Spatial Partition
 
+-? [ ] Message Pattern
+
 ***
 ## Proxy Mode-Adapter Mode-Appearance Mode-Mediator Mode
 
